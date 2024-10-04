@@ -114,9 +114,13 @@ or
 
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation .
 
-	To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
+	To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation.
+![WhatsApp Image 2024-10-04 at 15 06 52_23804d93](https://github.com/user-attachments/assets/a0c7a9a7-bcef-4a84-b3b3-2296ac0f8861)
+
 
 ### Fig 7: Nclaunch Window
+![WhatsApp Image 2024-10-04 at 15 06 50_4182983a](https://github.com/user-attachments/assets/a0443dc2-4ae3-4556-b895-7c2d72f3544f)
+
 
 ## Step 1: Compilation:– Process to check the correct Verilog language syntax and usage 
 
@@ -136,6 +140,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
 ### Fig 8: Compiled database in worklib
+![WhatsApp Image 2024-10-04 at 15 06 50_54beda44](https://github.com/user-attachments/assets/4f716e7f-9872-4c35-a1f2-9c0f4285b16a)
+
 
 	After compilation it will come under worklib you can see in right side window
 
@@ -159,6 +165,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	After elaboration the file will come under snapshot. Select the test bench and elaborate it.
 
 ### Fig 9: Elaboration Launch Option
+![WhatsApp Image 2024-10-04 at 15 06 51_82d21bfe](https://github.com/user-attachments/assets/da4a0c8c-b9a5-4866-844a-cdbf19aa1dd1)
+
 
 ## Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
 
@@ -171,10 +179,16 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	Steps for simulation – Run the simulation command with simulator options
 
 ### Fig 10: Design Browser window for simulation
+![WhatsApp Image 2024-10-04 at 15 06 53_1ae9085d](https://github.com/user-attachments/assets/765dde18-7534-46f4-8acb-53ae28d9d0a6)
+
 
 ### Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window
 
+![WhatsApp Image 2024-10-04 at 15 06 51_c05025b6](https://github.com/user-attachments/assets/eab71422-fc6f-406f-a07a-5c7888f2625b)
+
 ### Fig 12: Simulation Waveform Window
+![WhatsApp Image 2024-10-04 at 15 06 50_36566b0c](https://github.com/user-attachments/assets/170e75e7-70c6-4510-abb4-c712fdc21221)
+
 
 
 
